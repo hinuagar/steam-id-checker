@@ -3,7 +3,7 @@
 ## Description
 
 This project is a tool for checking if a steam ID is available to be claimed or not. It provides a simple CLI (Command Line Interface) which displays the results of checking through the file in the same directory called 'words.txt'. 
-This file is filled with your desired words to check, separated by newlines. There is no pre-requisites for this project except for requests, which can be installed using pip install requests.
+This file is filled with your desired words to check, separated by newlines. There is no pre-requisites for this project as it uses urllib instead of requests, this is achieved through a custom HTTP Client.
 
 ## Features
 
